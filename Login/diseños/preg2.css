@@ -1,0 +1,30 @@
+body{
+    background: linear-gradient(to right, #02dec1,#cb232c);
+
+}
+#h2{ 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 18px; 
+    font-weight: 400; 
+    color: #ffffff; 
+    background:#ee0467  
+    border-radius 35px 0px 35px 0px;
+
+border: 2px solid #5878ca; 
+text-align: center;
+font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+
+} 
+
+#Resp{ 
+    font-family: Arial, Helvetica, sans-serif; 
+        font-size: 18px; 
+        font-weight: 400; 
+        color: #ffffff; 
+        background:#ee0467  
+     
+border 2px solid #5878ca; 
+text-align: center;
+font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+
+}

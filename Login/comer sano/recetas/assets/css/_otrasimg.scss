@@ -1,0 +1,76 @@
+.otras_imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background: #0e0b1694;
+    justify-content: center;
+    .imagen {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 5px;
+        background: #444444;
+        width: 280px;
+        margin: 20px;
+        opacity: 0.6; //Samus Project
+
+        &:hover {
+            background: #555555;
+            opacity: 1;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 5px;
+        }
+    }
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    input {
+        border-style: none;
+        border-radius: 5px;
+        background: #555555;
+        border: 2px solid #4717f6;
+        color: #e7dfdd;
+        padding: 10px;
+        width: 80%;
+        font-size: 18px;
+
+        &:hover {
+            background: #4717f6;
+            cursor: pointer;
+            box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.15);
+             transition-duration:.4s ;
+        }
+    }
+}
+
+
+.datos{
+    padding: 8px;
+    .titulo{
+        font-size: 24px;
+        color: #d92027;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .descripcion{
+        color: #ffffff;
+        padding: 5px;
+        text-align: justify;
+        font-size: 18px;
+        font-weight: 400;
+
+        .remarcar{
+            color: #00adb5;
+            font-weight: 700;
+
+        }
+
+    }
+    
+}
